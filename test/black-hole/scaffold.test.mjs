@@ -88,6 +88,16 @@ test('Jules cadence stays below the 100-task daily limit with recovery headroom'
 	assert.equal(schedule.releaseGate.cadence, 'daily');
 	assert.equal(schedule.releaseGate.prompt, 'Read docs/prompts/release-gate.md and follow it exactly.');
 	await text('docs/prompts/release-gate.md');
+
+	const deployment = await text('.sys/black-hole/jules-deployment.md');
+	assert.match(deployment, /25 schedules verified/i);
+	assert.match(deployment, /12:00 AM CDT/);
+	assert.match(deployment, /1:00 AM CDT/);
+	assert.match(deployment, /11:30 PM CDT/);
+	assert.match(deployment, /08:00/);
+	assert.match(deployment, /09:00/);
+	assert.match(deployment, /16:00/);
+	assert.match(deployment, /17:00/);
 });
 
 test('licensing keeps the downstream ELv2 choice and upstream MIT notice', async () => {
