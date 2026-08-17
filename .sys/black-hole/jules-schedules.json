@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "timezone": "America/Chicago",
+  "mode": "budgeted-three-cycle-daily-role-streams",
+  "dailyTaskLimit": 100,
+  "scheduledTasksPerDay": 73,
+  "reservedTasksPerDay": 27,
+  "roles": [
+    "base",
+    "editor",
+    "platform",
+    "runtime",
+    "workbench-api",
+    "workbench-shell",
+    "workbench-services",
+    "workbench-features",
+    "extensions",
+    "build-distribution",
+    "quality",
+    "documentation"
+  ],
+  "planningHours": [
+    0,
+    8,
+    16
+  ],
+  "executionHours": [
+    1,
+    9,
+    17
+  ],
+  "minimalPromptPattern": {
+    "planning": "Read docs/prompts/planning-<role>.md and follow it exactly.",
+    "execution": "Read docs/prompts/execution-<role>.md and follow it exactly."
+  },
+  "releaseGate": {
+    "cadence": "daily",
+    "time": "23:30",
+    "prompt": "Read docs/prompts/release-gate.md and follow it exactly.",
+    "writes": [
+      "docs/release/RELEASE_READY.md",
+      "docs/release/RELEASE_BLOCKED.md"
+    ]
+  },
+  "note": "This creates 12 roles × 3 planner runs + 12 roles × 3 executor runs + 1 release gate = 73 scheduled tasks/day. Do not collapse planning and execution into one task."
+}
