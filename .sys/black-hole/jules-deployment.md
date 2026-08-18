@@ -5,25 +5,24 @@
 **Branch:** `main`  
 **Account limit:** 100 sessions/day and 15 simultaneous sessions
 
-## Deployed pilot wave
+## Complete deployment
 
-**25 schedules verified** in Jules with their exact minimal prompts and CDT times:
+**73 schedules verified** in Jules with their exact minimal prompts and CDT times:
 
-- 12 role planners: daily at **12:00 AM CDT**;
-- 12 matching role executors: daily at **1:00 AM CDT**;
+- 12 role planners: daily at **12:00 AM CDT**, **8:00 AM CDT**, and **4:00 PM CDT**;
+- 12 matching role executors: daily at **1:00 AM CDT**, **9:00 AM CDT**, and **5:00 PM CDT**;
 - one read-only release gate: daily at **11:30 PM CDT**.
 
-Every role listed in `jules-schedules.json` has one planner/executor pair. The UI exposed all 25 prompt cards after creation, and an automated accessibility-tree check found no missing prompt/time pair.
+Every role listed in `jules-schedules.json` has three planner schedules and three matching executor schedules. Each task contains only its repository prompt pointer:
 
-The cards showed `Inactive` and `No executions yet` immediately after creation. Confirm the first midnight/1:00 AM run before treating execution delivery as proven.
+- `Read docs/prompts/planning-<role>.md and follow it exactly.`
+- `Read docs/prompts/execution-<role>.md and follow it exactly.`
+- `Read docs/prompts/release-gate.md and follow it exactly.`
 
-## Planned expansion
+The final accessibility-tree scan traversed Jules's virtualized schedule list and found **73 expected, 73 present, zero missing, and zero unexpected** prompt/time pairs.
 
-The repository contract defines three complete waves per day. The pilot still needs these 48 daily schedules:
+## Budget and delivery status
 
-- planners at **08:00 AM** and **04:00 PM (16:00)** CDT;
-- executors at **09:00 AM** and **05:00 PM (17:00)** CDT.
+The deployed cadence uses 72 role sessions plus one release-gate session per day, totaling 73. The remaining **27 sessions/day are reserved** for recovery and manual work.
 
-After expansion, the system will use 72 role sessions plus one release-gate session per day, totaling 73 and reserving 27 of the 100 daily sessions for recovery and manual work.
-
-Do not add the expansion until the first pilot cycle proves planner-only writes, durable executor claims, required GitHub checks, and auto-merge behavior.
+Deployment completion was explicitly requested before the first pilot execution. The cards still showed `Inactive` and `No executions yet` after creation, so execution delivery remains unproven until the first scheduled cycle demonstrates planner-only writes, durable executor claims, required GitHub checks, and auto-merge behavior.
