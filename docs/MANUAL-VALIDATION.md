@@ -21,9 +21,12 @@ These checks cover external state that repository tests cannot prove.
 - [x] Confirm the full deployment contains 73 schedules: 72 role sessions and the release gate at 11:30 PM CDT.
 - [x] Confirm the timezone is America/Chicago and deployed planning/execution never share an hour.
 - [x] Confirm the daily release gate reads `docs/prompts/release-gate.md` and writes only `docs/release/`.
-- [ ] Confirm the first scheduled cycle changes the cards from `No executions yet` and respects the 15-session concurrency ceiling.
+- [x] Audit the first scheduled cycle and record its bounded evidence in `.sys/black-hole/jules-first-cycle.md`. The cycle failed at Jules dispatch: only the release gate, documentation planner, and documentation executor showed attempts, and every visible attempt failed.
+- [ ] Demonstrate one complete scheduled cycle in which all twelve planners and all twelve executors run or visibly safe no-op.
+- [ ] Verify successful same-role planner/executor sessions do not overlap.
+- [ ] Verify observed successful-session concurrency stays within the 15-session ceiling; failed attempts and a `0/100` daily counter are insufficient proof.
 - [ ] Run one planner manually, verify it changes only its plan/backlog, then run its executor and verify the claim precedes product edits.
-- [ ] Verify a Jules PR triggers checks and the exact Helios auto-merge workflow.
+- [ ] Verify a Jules-generated PR contains only role-owned changes, triggers required checks and the exact Helios auto-merge workflow, and merges when eligible.
 
 ## Product baseline
 

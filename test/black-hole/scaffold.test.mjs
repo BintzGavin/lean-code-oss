@@ -121,3 +121,18 @@ test('manual validation and upstream provenance are explicit', async () => {
 	assert.match(await text('UPSTREAM.md'), /a5b500951314efd502d07465bd138dfbd714a960/);
 	assert.match(await text('UPSTREAM.md'), /8076a19fdcab7e1fc1707952d652f0bb6c6db331/);
 });
+
+test('the first Jules cycle audit distinguishes failures from unexercised delivery', async () => {
+	const audit = await text('.sys/black-hole/jules-first-cycle.md');
+	assert.match(audit, /2026-08-18/);
+	assert.match(audit, /11:30 PM CDT/);
+	assert.match(audit, /12:00 AM CDT/);
+	assert.match(audit, /1:00 AM CDT/);
+	assert.match(audit, /five failed attempts/i);
+	assert.match(audit, /11 of 12 planners/i);
+	assert.match(audit, /11 of 12 executors/i);
+	assert.match(audit, /0\/100/);
+	assert.match(audit, /No Jules-generated pull requests/i);
+	assert.match(audit, /not exercised/i);
+	assert.match(audit, /5eaf2e57b2e91b0d66c1f15105ec4bc763d75c0a/);
+});
