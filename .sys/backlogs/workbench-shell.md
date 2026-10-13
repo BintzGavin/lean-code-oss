@@ -15,3 +15,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Dependencies: none
 - Result: pending
 -->
+
+## WORKBENCH-SHELL-0001 — Remove optional UI imports on startup
+- State: ready
+- Work order: .sys/plans/workbench-shell/WORKBENCH-SHELL-0001-remove-optional-ui-imports.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
