@@ -6,12 +6,10 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
-<!--
-## BUILD-DISTRIBUTION-0001 — Short title
+## BUILD-DISTRIBUTION-0001 — Remove AI, telemetry, and background endpoints from manifests
 - State: ready
-- Work order: .sys/plans/build-distribution/BUILD-DISTRIBUTION-0001-short-title.md
+- Work order: .sys/plans/build-distribution/BUILD-DISTRIBUTION-0001-remove-ai-telemetry-manifests.md
 - Attempt: 0
 - Claim: none
 - Dependencies: none
 - Result: pending
--->
