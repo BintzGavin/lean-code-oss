@@ -15,3 +15,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Dependencies: none
 - Result: pending
 -->
+
+## DOCUMENTATION-0001 — Rewrite upstream contribution and security guidance
+- State: ready
+- Work order: .sys/plans/documentation/DOCUMENTATION-0001-rewrite-contribution-security.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
