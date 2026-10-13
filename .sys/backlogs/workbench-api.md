@@ -6,6 +6,14 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
+## WORKBENCH-API-0001 — Block AI, Chat, LM, and MCP APIs explicitly
+- State: ready
+- Work order: .sys/plans/workbench-api/WORKBENCH-API-0001-block-ai-chat-apis.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
+
 <!--
 ## WORKBENCH-API-0001 — Short title
 - State: ready
