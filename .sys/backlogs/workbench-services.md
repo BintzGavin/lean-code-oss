@@ -15,3 +15,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Dependencies: none
 - Result: pending
 -->
+
+## WORKBENCH-SERVICES-0001 — Make optional AI, Sync, and MCP services lazy
+- State: ready
+- Work order: .sys/plans/workbench-services/WORKBENCH-SERVICES-0001-lazy-optional-services.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
