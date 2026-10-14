@@ -17,9 +17,9 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 -->
 
 ## WORKBENCH-SHELL-0001 — Remove optional UI imports on startup
-- State: ready
+- State: completed
 - Work order: .sys/plans/workbench-shell/WORKBENCH-SHELL-0001-remove-optional-ui-imports.md
-- Attempt: 0
-- Claim: none
+- Attempt: 1
+- Claim: executor-workbench-shell-0001
 - Dependencies: none
-- Result: pending
+- Result: tests passed and imports removed, details in work order
