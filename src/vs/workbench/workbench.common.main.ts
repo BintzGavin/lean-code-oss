@@ -390,16 +390,6 @@ import './contrib/update/browser/update.contribution.js';
 import './contrib/surveys/browser/nps.contribution.js';
 import './contrib/surveys/browser/languageSurveys.contribution.js';
 
-// Welcome
-import './contrib/welcomeGettingStarted/browser/gettingStarted.contribution.js';
-import './contrib/welcomeAgentSessions/browser/agentSessionsWelcome.contribution.js';
-import './contrib/welcomeWalkthrough/browser/walkThrough.contribution.js';
-import './contrib/welcomeViews/common/viewsWelcome.contribution.js';
-import './contrib/welcomeViews/common/newFile.contribution.js';
-
-// Welcome Onboarding
-import './contrib/welcomeOnboarding/browser/welcomeOnboarding.contribution.js';
-
 // Onboarding (scenario engine)
 import './contrib/onboarding/browser/onboarding.contribution.js';
 

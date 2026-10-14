@@ -14,7 +14,7 @@ Generated truth for the workbench-shell role belongs here after each verified ex
 
 ## Current architecture
 
-Baseline imported; no downstream implementation work has completed yet.
+Baseline imported; no downstream implementation work has completed yet. Removed welcome, onboarding, and optional banner UI imports on startup.
 
 ## Public contracts
 

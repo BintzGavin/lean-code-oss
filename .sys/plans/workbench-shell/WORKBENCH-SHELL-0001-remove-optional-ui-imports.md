@@ -49,3 +49,6 @@ The role-local backlog owns lifecycle state. The planner freezes Sections 1–6 
 - **Blocked when**: If the core shell has hard dependencies on these modules making removal break the build.
 
 ## 7. Result
+
+- `grep -i "welcome" src/vs/workbench/workbench.common.main.ts src/vs/workbench/workbench.web.main.ts` returned `No matches`.
+- `node test/black-hole/scaffold.test.mjs` passed successfully with `tests 8`, `pass 8`.

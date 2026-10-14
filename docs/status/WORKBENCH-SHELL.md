@@ -6,4 +6,4 @@
 
 - Baseline imported from Code - OSS 1.133.0.
 - Black Hole planner/executor pair scaffolded.
-- No work order has been claimed.
+- WORKBENCH-SHELL-0001 claimed and completed.

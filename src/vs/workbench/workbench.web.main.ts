@@ -151,9 +151,6 @@ import './contrib/preferences/browser/keyboardLayoutPicker.js';
 // Debug
 import './contrib/debug/browser/extensionHostDebugService.js';
 
-// Welcome Banner
-import './contrib/welcomeBanner/browser/welcomeBanner.contribution.js';
-
 // Webview
 import './contrib/webview/browser/webview.web.contribution.js';
 
