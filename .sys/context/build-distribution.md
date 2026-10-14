@@ -42,3 +42,4 @@ Baseline imported; no downstream implementation work has completed yet.
 ## Public contracts
 
 Document only contracts that exist in the current repository. Do not paste implementation bodies.
+- The work order BUILD-DISTRIBUTION-0001 is currently blocked by an upstream typescript/mangler failure caused by `src/vs/sessions/contrib/changes/browser/sessionChangesEditor.ts`. We cannot compile the build cleanly until `workbench-features` fixes their code to avoid changing the visibility of protected fields.

@@ -57,3 +57,6 @@ Do not include production code. Leave implementation judgment to the executor.
 - **Blocked when**: N/A.
 
 ## 7. Result
+
+- **Status:** Blocked
+- **Reason:** While the manifest configurations were successfully stripped, `npm run compile-build` fails with `Error: Protected fields have been made PUBLIC.` This is caused by `src/vs/sessions/contrib/changes/browser/sessionChangesEditor.ts` inside `workbench-features` turning `updateChecked` and `getTooltip` public. This prevents safe minification of the artifact. `workbench-features` must fix this before the build distribution task can be finalized.

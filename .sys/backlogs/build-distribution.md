@@ -7,9 +7,9 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
 ## BUILD-DISTRIBUTION-0001 — Remove AI, telemetry, and background endpoints from manifests
-- State: ready
+- State: blocked
 - Work order: .sys/plans/build-distribution/BUILD-DISTRIBUTION-0001-remove-ai-telemetry-manifests.md
-- Attempt: 0
+- Attempt: 1
 - Claim: none
 - Dependencies: none
-- Result: pending
+- Result: compile-build fails with mangler complaining about protected fields turning public due to changes in sessionChangesEditor.ts (workbench-features). This must be fixed upstream before build-distribution can complete safely.
