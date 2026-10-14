@@ -23,3 +23,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Claim: executor-workbench-shell-0001
 - Dependencies: none
 - Result: tests passed and imports removed, details in work order
+
+## WORKBENCH-SHELL-0002 — Remove telemetry, AI, chat, and sync imports
+- State: ready
+- Work order: .sys/plans/workbench-shell/WORKBENCH-SHELL-0002-remove-telemetry-ai-chat-sync-imports.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
