@@ -6,12 +6,10 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
-<!--
-## EDITOR-0001 — Short title
+## EDITOR-0001 — Remove AI Lightbulb and Inline Chat Dependencies from Editor Core
 - State: ready
-- Work order: .sys/plans/editor/EDITOR-0001-short-title.md
+- Work order: .sys/plans/editor/EDITOR-0001-remove-ai-lightbulb.md
 - Attempt: 0
 - Claim: none
 - Dependencies: none
 - Result: pending
--->
