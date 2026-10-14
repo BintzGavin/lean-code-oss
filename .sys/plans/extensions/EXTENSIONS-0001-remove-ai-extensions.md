@@ -53,3 +53,4 @@ The role-local backlog owns lifecycle state. The planner freezes Sections 1–6 
 - **Blocked when**: None.
 
 ## 7. Result
+Execution blocked: The required modifications to build/ directory files and package.json violate the extensions executor's static ownership bounds.

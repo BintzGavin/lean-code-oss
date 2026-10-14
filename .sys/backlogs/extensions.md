@@ -17,9 +17,9 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 -->
 
 ## EXTENSIONS-0001 — Remove Bundled AI Extensions
-- State: ready
+- State: blocked
 - Work order: .sys/plans/extensions/EXTENSIONS-0001-remove-ai-extensions.md
-- Attempt: 0
+- Attempt: 1
 - Claim: none
-- Dependencies: none
+- Dependencies: build-distribution role must clean up build/ files and package.json
 - Result: pending
