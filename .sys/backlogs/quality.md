@@ -15,3 +15,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Dependencies: none
 - Result: pending
 -->
+
+## QUALITY-0001 — Add executable test for idle network activity
+- State: ready
+- Work order: .sys/plans/quality/QUALITY-0001-idle-network-activity.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
