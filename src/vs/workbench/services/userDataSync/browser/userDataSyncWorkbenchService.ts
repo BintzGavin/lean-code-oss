@@ -790,4 +790,4 @@ export class UserDataSyncWorkbenchService extends Disposable implements IUserDat
 
 }
 
-registerSingleton(IUserDataSyncWorkbenchService, UserDataSyncWorkbenchService, InstantiationType.Eager /* Eager because it initializes settings sync accounts */);
+registerSingleton(IUserDataSyncWorkbenchService, UserDataSyncWorkbenchService, InstantiationType.Delayed);

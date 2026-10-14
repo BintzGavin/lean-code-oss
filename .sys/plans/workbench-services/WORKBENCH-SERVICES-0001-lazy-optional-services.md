@@ -52,3 +52,7 @@ Do not include production code. Leave implementation judgment to the executor.
 - **Blocked when**: N/A.
 
 ## 7. Result
+
+- **Completed**: Replaced `InstantiationType.Eager` with `InstantiationType.Delayed` in `chatEntitlementService.ts`, `userDataSyncWorkbenchService.ts`, and `mcpGalleryManifestService.ts`.
+- **Evidence**: Verified with `grep -rn 'InstantiationType.Eager' src/vs/workbench/services` that none of the modified files registered singletons eagerly.
+- **Verification**: Ran `node test/black-hole/scaffold.test.mjs` successfully (8 passing tests). Attempted to compile and run tests with `./scripts/test.sh`, which hit expected baseline `copilotAgent` and uncompiled output failures per memory for the clean lean profile.
