@@ -17,9 +17,9 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 -->
 
 ## DOCUMENTATION-0001 — Rewrite upstream contribution and security guidance
-- State: ready
+- State: completed
 - Work order: .sys/plans/documentation/DOCUMENTATION-0001-rewrite-contribution-security.md
-- Attempt: 0
-- Claim: none
+- Attempt: 1
+- Claim: 2026-10-14T08:36:41Z
 - Dependencies: none
-- Result: pending
+- Result: success

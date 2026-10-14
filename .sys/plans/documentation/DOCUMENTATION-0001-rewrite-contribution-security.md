@@ -50,4 +50,8 @@ Do not include production code. Leave implementation judgment to the executor.
 
 ## 7. Result
 
-Unfilled by the planner. The executor appends completion, blocked, or `needs_input` evidence here after claiming the work order through the role-local backlog.
+- **Status**: `completed`
+- **Evidence**:
+  - `CONTRIBUTING.md` rewritten to remove upstream issue tracker and wiki links, attribute Code - OSS, and direct to Jules.
+  - `SECURITY.md` rewritten to remove `aka.ms/SECURITY.md` link and describe security reporting via Jules.
+  - Verification commands `grep "microsoft/vscode" CONTRIBUTING.md` and `grep "aka.ms" SECURITY.md` both exit with 1.

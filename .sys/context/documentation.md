@@ -15,8 +15,11 @@ Generated truth for the documentation role belongs here after each verified exec
 
 ## Current architecture
 
-Baseline imported; no downstream implementation work has completed yet.
+Baseline imported; `CONTRIBUTING.md` and `SECURITY.md` have been rewritten to establish the Lean Code OSS public boundaries.
 
 ## Public contracts
 
 Document only contracts that exist in the current repository. Do not paste implementation bodies.
+
+- Contribution instructions redirect to Jules under the Black Hole protocol.
+- Security reporting redirects to Jules instead of the upstream provider.
