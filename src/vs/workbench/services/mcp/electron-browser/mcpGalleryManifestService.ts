@@ -34,4 +34,4 @@ export class McpGalleryManifestService extends WorkbenchMcpGalleryManifestServic
 
 }
 
-registerSingleton(IMcpGalleryManifestService, McpGalleryManifestService, InstantiationType.Eager);
+registerSingleton(IMcpGalleryManifestService, McpGalleryManifestService, InstantiationType.Delayed);
