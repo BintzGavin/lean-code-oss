@@ -6,12 +6,10 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
-<!--
-## RUNTIME-0001 — Short title
+## RUNTIME-0001 — Remove crash reporter and initial background telemetry
 - State: ready
-- Work order: .sys/plans/runtime/RUNTIME-0001-short-title.md
+- Work order: .sys/plans/runtime/RUNTIME-0001-remove-crash-reporter.md
 - Attempt: 0
 - Claim: none
 - Dependencies: none
 - Result: pending
--->
