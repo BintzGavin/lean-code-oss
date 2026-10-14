@@ -6,4 +6,4 @@
 
 - Baseline imported from Code - OSS 1.133.0.
 - Black Hole planner/executor pair scaffolded.
-- No work order has been claimed.
+- EXTENSIONS-0001 is blocked due to cross-role dependencies (build-distribution).
