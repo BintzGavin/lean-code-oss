@@ -15,3 +15,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Dependencies: none
 - Result: pending
 -->
+
+## BASE-0001 — Remove LoadEstimator setInterval
+- State: ready
+- Work order: .sys/plans/base/BASE-0001-remove-loadestimator-timer.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
