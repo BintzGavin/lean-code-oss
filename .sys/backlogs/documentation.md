@@ -25,9 +25,9 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Result: success
 
 ## DOCUMENTATION-0002 — Document benchmark protocol and machine context
-- State: ready
+- State: completed
 - Work order: .sys/plans/documentation/DOCUMENTATION-0002-benchmark-protocol.md
-- Attempt: 0
-- Claim: none
+- Attempt: 1
+- Claim: 2026-10-15T12:00:00Z
 - Dependencies: none
-- Result: pending
+- Result: success

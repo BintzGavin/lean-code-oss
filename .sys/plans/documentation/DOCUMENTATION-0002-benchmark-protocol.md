@@ -48,3 +48,8 @@ Do not include production code. Leave implementation judgment to the executor.
 - **Blocked when**: None.
 
 ## 7. Result
+
+- **Success criteria met**: Created docs/research/benchmark-protocol.md outlining reference context (Apple Silicon macOS 26.x) and metrics (warm/cold launch, process-tree memory, CPU).
+- **Evidence**:
+  - `cat docs/research/benchmark-protocol.md` displays the file successfully.
+  - `node test/black-hole/scaffold.test.mjs` passed successfully.
