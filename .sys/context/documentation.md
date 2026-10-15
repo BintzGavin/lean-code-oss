@@ -15,7 +15,7 @@ Generated truth for the documentation role belongs here after each verified exec
 
 ## Current architecture
 
-Baseline imported; `CONTRIBUTING.md` and `SECURITY.md` have been rewritten to establish the Lean Code OSS public boundaries.
+Baseline imported; `CONTRIBUTING.md` and `SECURITY.md` have been rewritten to establish the Lean Code OSS public boundaries. Benchmark protocol created for performance testing.
 
 ## Public contracts
 
