@@ -6,12 +6,10 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
-<!--
-## BASE-0001 — Short title
+## BASE-0001 — Remove eager runaway LoadEstimator setInterval from Base IPC
 - State: ready
-- Work order: .sys/plans/base/BASE-0001-short-title.md
+- Work order: .sys/plans/base/BASE-0001-ipc-loadestimator.md
 - Attempt: 0
 - Claim: none
 - Dependencies: none
 - Result: pending
--->
