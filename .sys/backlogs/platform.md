@@ -6,12 +6,10 @@ Allowed states: `draft`, `needs_input`, `ready`, `in_progress`, `blocked`, `comp
 
 Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterminal entry.
 
-<!--
-## PLATFORM-0001 — Short title
+## PLATFORM-0001 — Remove Telemetry and Settings Sync service interfaces
 - State: ready
-- Work order: .sys/plans/platform/PLATFORM-0001-short-title.md
+- Work order: .sys/plans/platform/PLATFORM-0001-remove-telemetry-and-sync-interfaces.md
 - Attempt: 0
 - Claim: none
 - Dependencies: none
 - Result: pending
--->
