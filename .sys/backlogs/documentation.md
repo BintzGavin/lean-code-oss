@@ -23,3 +23,11 @@ Only `completed` and explicit `cancelled` are terminal. Keep at most one nonterm
 - Claim: 2026-10-14T08:36:41Z
 - Dependencies: none
 - Result: success
+
+## DOCUMENTATION-0002 — Document benchmark protocol and machine context
+- State: ready
+- Work order: .sys/plans/documentation/DOCUMENTATION-0002-benchmark-protocol.md
+- Attempt: 0
+- Claim: none
+- Dependencies: none
+- Result: pending
